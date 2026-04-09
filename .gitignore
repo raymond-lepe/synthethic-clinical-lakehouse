@@ -1,1 +1,39 @@
 
+# Synthea generated output (synthetic patient data - upload to ADLS directly)
+synthea/
+
+# dbt
+dbt/target/
+dbt/profiles.yml
+dbt/logs/
+dbt/.user.yml
+
+# Databricks
+.databricks/
+**/.ipynb_checkpoints/
+**/cluster-logging/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Secrets and credentials
+*.credentials
+*.env
+.env.*
+secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
